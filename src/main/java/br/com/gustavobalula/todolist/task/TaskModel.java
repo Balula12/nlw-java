@@ -22,11 +22,11 @@ public class TaskModel {
 
     @Column(length = 50)
     private String title;
-    private LocalDateTime statAt;
+    private LocalDateTime startAt;
     private LocalDateTime endAt;
     private String priority;
     
-    private UUID iduser;
+    private UUID idUser;
 
     @CreationTimestamp
     private LocalDateTime createdAt;
